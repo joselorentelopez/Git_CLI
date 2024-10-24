@@ -43,7 +43,7 @@ To run this project, ensure you have Python 3.10 or later installed on your syst
 
 2. Launch the Streamlit front Git CLI:
    ```bash
-   1.1. Go to src/front/
+   1.1. Go to src/st_front/
    1.2. Execute "streamlit run st_front.py"
    ```
 
