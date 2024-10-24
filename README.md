@@ -35,60 +35,17 @@ To run this project, ensure you have Python 3.10 or later installed on your syst
    ```
 
 ## Usage
-1. Launch the Git CLI:
+1. Launch the Git CLI using the terminal:
    ```bash
-   python st_front.py
+   1.1. Go to src/
+   1.2. Execute "python git_CLI.py"
    ```
 
-2. Use the following commands within the CLI to manage your Git repository:
-   - Set your working directory:
-     ```
-     set_working_directory()
-     ```
-   - Create a new repository:
-     ```
-     create_new_repo()
-     ```
-   - Create a new branch:
-     ```
-     create_new_branch()
-     ```
-   - View the list of branches:
-     ```
-     show_branch_list()
-     ```
-   - Change to a different branch:
-     ```
-     change_branch()
-     ```
-   - Show pending files:
-     ```
-     show_pending_files()
-     ```
-   - Commit changes:
-     ```
-     commit_changes()
-     ```
-   - View commit history:
-     ```
-     show_commit_history()
-     ```
-   - Delete a branch:
-     ```
-     delete_branch()
-     ```
-   - Set a remote repository:
-     ```
-     set_remote_repository()
-     ```
-   - Pull changes from the remote repository:
-     ```
-     pull_changes()
-     ```
-   - Push changes to the remote repository:
-     ```
-     push_changes()
-     ```
+2. Launch the Streamlit front Git CLI:
+   ```bash
+   1.1. Go to src/front/
+   1.2. Execute "streamlit run st_front.py"
+   ```
 
 ## Future Implementations
 - Implement functionality to handle merge conflicts.
@@ -98,9 +55,6 @@ To run this project, ensure you have Python 3.10 or later installed on your syst
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Thank you to the open-source community for providing tools and libraries that make development easier and more efficient.
